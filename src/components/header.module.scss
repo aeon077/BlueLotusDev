@@ -1,0 +1,30 @@
+.navitem {
+    color: #999999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.navitem:hover {
+    color: #666666
+}
+
+.activeNavitem {
+    color: #333333
+}
+
+.header {
+    padding: 1rem 0 3rem;
+}
+
+.title {
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
