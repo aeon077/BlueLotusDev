@@ -6,11 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Blue Lotus Dev!',
+    title: 'Blue Lotus Dev',
     author: 'Carolyn Schiltz'
   },
 
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-contentful`,
       options: {

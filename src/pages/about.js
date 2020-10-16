@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
+import Head from '../components/head';
 
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
     return (
         <>
             <Layout>
+                <Head title="About" />
                 <div>
                     <h1>Hi, I'm Carolyn.</h1>
 

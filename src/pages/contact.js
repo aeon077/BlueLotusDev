@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
+import Head from '../components/head';
+
 
 
 
@@ -9,6 +11,7 @@ const Contact = () => {
     return (
         <>
             <Layout>
+                <Head title="Contact" />
                 <div>
                     <h1>Contact me!</h1>
                     <p>Email: Carolyn.schiltz@gmail.com</p>
