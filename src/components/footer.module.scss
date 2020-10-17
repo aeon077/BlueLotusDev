@@ -1,3 +1,13 @@
 .footer {
-    margin-top: 3rem
+    padding-top: 1rem;
+    position: absolute;
+    height: 80px;
+    background-color: #7d87bf;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    padding-left: 1rem;
+    color: white;
+    justify-content: center;
 }

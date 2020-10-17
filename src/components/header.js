@@ -15,10 +15,12 @@ const Header = () => {
 
     return (
         <header className={headerStyles.header}>
-            <h1> <Link to="/" className={headerStyles.title}>
-                {data.site.siteMetadata.title}
-            </Link></h1>
-            <nav>
+            <nav className={headerStyles.nav}>
+                <div className={headerStyles.logo}>
+                    <div className={headerStyles.span}> <img src="/images/lotus-flower.png" alt="lotusflower" /></div>
+                    <div className={headerStyles.span}><Link to="/" className={headerStyles.title}> {data.site.siteMetadata.title}
+                    </Link></div>
+                </div>
                 <ul className={headerStyles.navlist}>
                     <li><Link className={headerStyles.navitem} activeClassName={headerStyles.activeNavitem} to="/">Home</Link></li>
                     <li><Link className={headerStyles.navitem} activeClassName={headerStyles.activeNavitem} to="/about">About Me</Link></li>

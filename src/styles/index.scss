@@ -2,8 +2,7 @@
 
 html {
     font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+
   }
   body {
     margin: 0;
@@ -187,9 +186,8 @@ html {
     font: inherit;
   }
   html {
-    font: 112.5%/1.45em georgia, serif;
     box-sizing: border-box;
-    overflow-y: scroll;
+    overflow-y: none;
   }
   * {
     box-sizing: inherit;
@@ -211,17 +209,17 @@ html {
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
   }
-  img {
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 1.45rem;
-  }
+  // img {
+  //   max-width: 100%;
+  //   margin-left: 0;
+  //   margin-right: 0;
+  //   margin-top: 0;
+  //   padding-bottom: 0;
+  //   padding-left: 0;
+  //   padding-right: 0;
+  //   padding-top: 0;
+  //   margin-bottom: 1.45rem;
+  // }
   h1 {
     margin-left: 0;
     margin-right: 0;
@@ -386,7 +384,7 @@ html {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 0;
   }
   figure {
     margin-left: 0;
