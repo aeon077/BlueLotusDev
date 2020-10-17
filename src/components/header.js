@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import headerStyles from './header.module.scss'
+import Lotus from '../images/lotus-flower.png'
 
 const Header = () => {
     const data = useStaticQuery(graphql`
@@ -17,7 +18,7 @@ const Header = () => {
         <header className={headerStyles.header}>
             <nav className={headerStyles.nav}>
                 <div className={headerStyles.logo}>
-                    <div className={headerStyles.span}> <img src="/images/lotus-flower.png" alt="lotusflower" /></div>
+                    <div className={headerStyles.span}> <img src={Lotus} alt="Lotus Logo" /></div>
                     <div className={headerStyles.span}><Link to="/" className={headerStyles.title}> {data.site.siteMetadata.title}
                     </Link></div>
                 </div>
